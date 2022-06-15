@@ -6,7 +6,7 @@
             "desc": "Apple phone 13th gen.",
             "price": 1000,
             "color": "#33505a",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346275"
+            "image": "assets/images/I-Phone13Pro.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "desc": "Top Quality HD , 160Hz Screen",
             "price": 856,
             "color": "#33505a",
-            "image": "https://www.91-img.com/pictures/samsung-galaxy-s6-edge-mobile-phone-large-1.jpg"
+            "image": "assets/images/Samsung_Edge.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "desc": "Moto Special",
             "price": 485,
             "color": "#33505a",
-            "image": "https://5.imimg.com/data5/EH/IU/MY-13191810/moto-g5-plus-500x500.png"
+            "image": "assets/images/Moto_G_5.png"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "desc": "Top Quality",
             "price": 159,
             "color": "#33505a",
-            "image": "https://mobilekoto.com/wp-content/uploads/2021/10/Nokia-10-Ultra-5G.png"
+            "image": "assets/images/Nokia_Ultra.png"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "desc": "Never Settle ",
             "price": 756,
             "color": "#33505a",
-            "image": "https://m.media-amazon.com/images/I/61RdG7c+VUL._SX679_.jpg"
+            "image": "assets/images/One_Plus.png"
             
         },
         {
@@ -47,26 +47,9 @@
             "desc": "Camera specific",
             "price": 400,
             "color": "#33505a",
-            "image": "https://m.media-amazon.com/images/I/612ytK4luvL._SX679_.jpg"
-            
-        },
-        {
-            "id": 7,
-            "name": "Iphone 12 Pro",
-            "desc": "Apple phone 12th gen.",
-            "price": 456,
-            "color": "#33505a",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,msid-78671027,imgsize-200,width-1200/78671027.jpg"
-            
-        },
-        {
-            "id": 8,
-            "name": "Mi 11X Pro",
-            "desc": "Mi Top Notch",
-            "price": 142,
-            "color": "#33505a",
-            "image": "https://i02.appmifile.com/235_operator_in/23/04/2021/105f79a23f084bde44310369004bb9a5.png"
+            "image": "assets/images/One_Plus_Nord.png"
             
         }
+        
     ]
 }
