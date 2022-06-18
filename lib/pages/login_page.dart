@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/pages/home_page.dart';
 import 'package:flutter_catalog/pages/utils/routes.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -31,6 +32,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
+      
         color: Colors.white,
         child: SingleChildScrollView(
           child: Form(
@@ -114,6 +116,8 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
-        ));
+        )
+        );
+        
   }
 }
