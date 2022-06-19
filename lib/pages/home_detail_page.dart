@@ -13,7 +13,7 @@ class HomeDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
                 buttonPadding: EdgeInsets.zero,
@@ -21,7 +21,7 @@ class HomeDetailPage extends StatelessWidget {
                   "\$${catalog.price}".text.bold.xl3.make(),
                   10.heightBox,
                   ElevatedButton(onPressed:(){},
-                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all(MyTheme.darkBluishColor),
+                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all(context.theme.buttonColor),
                   shape: MaterialStateProperty.all(StadiumBorder())),                
                    child: "Add to cart".text.make()).wh(120, 50)
       
@@ -30,7 +30,7 @@ class HomeDetailPage extends StatelessWidget {
       ),
       appBar: AppBar(
         backgroundColor: Colors.transparent ),
-      backgroundColor: MyTheme.creamColor,
+      backgroundColor: context.canvasColor,
       body: SafeArea(
         bottom: false,
         child: Column(children: [
@@ -47,7 +47,7 @@ class HomeDetailPage extends StatelessWidget {
               width: context.screenWidth,
               child: Column(
                 children: [
-                  catalog.name.text.xl4.color(MyTheme.darkBluishColor).bold.make(),
+                  catalog.name.text.xl4.color(context.accentColor).bold.make(),
                   catalog.desc.text.xl.textStyle(context.captionStyle).make(),
                   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                   .text.textStyle(context.captionStyle).make().p16(),
@@ -55,7 +55,7 @@ class HomeDetailPage extends StatelessWidget {
                 ]
                 
               ).py64(),
-              color: Colors.white,
+              color: context.cardColor,
             ),
           ))
         ]),
