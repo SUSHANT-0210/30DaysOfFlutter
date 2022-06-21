@@ -1,9 +1,9 @@
 class CatalogModel {
 
   //making singleton class  to create 1 object from line 4 to 6
-  static final catModel = CatalogModel._internal();
-  CatalogModel._internal();  // constructor
-  factory CatalogModel() => catModel;
+  // static final catModel = CatalogModel._internal();
+  // CatalogModel._internal();  // constructor
+  // factory CatalogModel() => catModel;
 
 
   static  List<Item> items = [];
